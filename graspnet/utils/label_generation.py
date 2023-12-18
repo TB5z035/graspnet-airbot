@@ -3,7 +3,7 @@
 """
 import torch
 
-from loss_utils import GRASP_MAX_WIDTH, batch_viewpoint_params_to_matrix, \
+from .loss_utils import GRASP_MAX_WIDTH, batch_viewpoint_params_to_matrix, \
                        transform_point_cloud, generate_grasp_views
 from ..knn.knn_modules import knn
 

@@ -26,7 +26,7 @@ class ModelFreeCollisionDetector():
     """
 
     def __init__(self, scene_points, voxel_size=0.005):
-        self.finger_width = 0.01
+        self.finger_width = 0.4
         self.finger_length = 0.06
         self.voxel_size = voxel_size
         scene_cloud = o3d.geometry.PointCloud()
